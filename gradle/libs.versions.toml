@@ -16,6 +16,7 @@ kotlin = "2.2.20"
 koin = "4.1.1"
 spm4kmp = "1.0.0-Beta04"
 firebase-analytics = "22.5.0"
+google-services = "4.4.3"
 
 # spm
 spm-firebase = "12.0.0"
@@ -44,3 +45,4 @@ composeCompiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "k
 kotlinMultiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
 
 spm4kmp = { id = "io.github.frankois944.spmForKmp", version.ref = "spm4kmp"}
+google-services = { id = "com.google.gms.google-services", version.ref = "google-services" }
